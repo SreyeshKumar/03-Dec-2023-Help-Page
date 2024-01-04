@@ -1,0 +1,19 @@
+.bg-container{
+	background-color: #09090f;
+	color: white;
+	background-size: cover;
+
+}
+.image-sizer{
+	
+	background-size: cover;
+	height: 550px;
+	border-radius: 50%;
+	
+	
+}
+.footer-container{
+	background-color: darkgrey;
+	padding: 10px;
+	text-align: center;
+}

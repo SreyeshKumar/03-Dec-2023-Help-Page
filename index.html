@@ -1,0 +1,115 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+		<title>Help/Support Page</title>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+		<link rel="stylesheet" href="style.css" />
+		<script src="main.js"></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+		  <div class="container-fluid">
+			<a class="navbar-brand" href="#">SHREY'S TECHNOLOGIES</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item">
+				  <a class="nav-link" aria-current="page" href="#">Tech Services</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Products</a>
+				</li>
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					Support
+				  </a>
+				  <ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="#">Contact Us</a></li>
+					<li><a class="dropdown-item" href="#">FAQ's</a></li>
+					<li><hr class="dropdown-divider"></li>
+					<li><a class="dropdown-item" href="index.html">HELP</a></li>
+				  </ul>
+				</li>
+				
+			  </ul>
+			  <form class="d-flex" role="search">
+				<input class="form-control me-2" type="search" placeholder="Serch For Help Type" aria-label="Search">
+				<button class="btn btn-outline-success" type="submit">Submit</button>
+			  </form>
+			</div>
+		  </div>
+		</nav>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="bg-container col-sm-12">
+					<h1 class="text-center text-danger" style="font-style: italic;" >Customer Support is here.</h1>
+					<div class="d-flex flex-row justify-content-center">
+						<img src="https://img.freepik.com/free-vector/24-hour-7-days-service-banner-with-clock_1017-26946.jpg?size=626&ext=jpg&uid=R80445103&ga=GA1.1.873613131.1666094533&semt=ais" class="image-sizer" />
+					</div>
+					<div class="d-flex flex-row justify-content-end fixed-bottom mb-5 m-3">
+						<svg id="whatsAppIcon" onclick="formOption()" style="font-size: 60px; background-color: #43D854;border-radius: 50%;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp btn" viewBox="0 0 16 16">
+					  <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+					</svg>
+						<div class="d-flex flex-column d-none" id="chatBtn">
+						
+							<h4>Leave Your Number Here We'll chat with you.</h4>
+							<input type="text" placeholder="Type Your Number" />
+						
+						<button onclick="whatsAppOption()" class="btn btn-primary mt-1">Submit</button>
+						</div>
+					</div>
+					<h2 class="text-center" >We have our wide range of services <span style="color: aqua;">24/7</span></h2>
+					<div id="carouselExampleCaptions" class="carousel slide">
+					  <div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					  </div>
+					  <div class="carousel-inner">
+						<div class="carousel-item active">
+						  <img src="https://img.freepik.com/premium-photo/woman-start-up-small-business-owner-writing-address-cardboard-box-workplacesmall-business-entrepreneur-sme-freelance-asian-woman-working-with-box-home_265022-7278.jpg?size=626&ext=jpg&uid=R80445103&ga=GA1.1.873613131.1666094533&semt=ais" class="d-block w-100" alt="...">
+						  <div class="carousel-caption">
+							<h5 style="">Number: +91 878787878787</h5>
+						  	<h5 style="">Email Us: shreys11@infotech.com</h5>
+							<p>For products related assistance.</p>
+						  </div>
+						</div>
+						<div class="carousel-item">
+						  <img src="https://img.freepik.com/free-photo/customer-relationship-management-concept_23-2150038409.jpg?size=626&ext=jpg&uid=R80445103&ga=GA1.1.873613131.1666094533&semt=ais" class="d-block w-100" alt="...">
+						  <div class="carousel-caption">
+							 <h5 style="">Number: +91 878787878786</h5>
+						  	<h5 style="">Email Us: shreys12@infotech.com</h5>
+							<p>For Tech services related assistance.</p>
+						  </div>
+						</div>
+						<div class="carousel-item">
+						  <img src="https://img.freepik.com/premium-photo/businessman-answering-questions-tablet-computer_646443-1868.jpg?size=626&ext=jpg&uid=R80445103&ga=GA1.1.873613131.1666094533&semt=ais" class="d-block w-100" alt="...">
+						  <div class="carousel-caption">
+							<h5 style="">Number: +91 878787878787</h5>
+						  	<h5 style="">Email Us: shreys13@infotech.com</h5>
+							<p>For any other assistance.</p>
+						  </div>
+						</div>
+					  </div>
+					  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					  </button>
+					  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					  </button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-container">
+			<h3>&copy; All Rights Reserved By Shrey's Infotech</h3>
+		</div>
+	</body>
+</html>
